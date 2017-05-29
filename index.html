@@ -113,6 +113,63 @@
       </div>
     </div>
   </div>
+  <div class="price">
+    <div class="row" id="price">
+      <div class="row-width">
+        <div class="block x3">
+          <div class="bl-header h1">
+            <h3>Basic</h3>
+          </div>
+          <table>
+            <th>$5.01/ Month</th>
+            <tr><td>Lorem ipsum</td></tr>
+            <tr><td>Dolor sit amet, consect</td></tr>
+            <tr><td>Adipiscing elit</td></tr>
+            <tr><td>Proin commodo turpis</td></tr>
+            <tr><td>lacus pulvinarvel</td></tr>
+            <tr><td>Prnare nisi pretium.</td></tr>
+          </table>
+          <div class="bl-footer">
+            <a href="#" title="Basic" class="btn-buy h11">Buy now</a>
+          </div>
+        </div>
+        <div class="block x3">
+          <div class="bl-header h2">
+            <h3>Pro</h3>
+          </div>
+          <table>
+            <th>$10.01/ Month</th>
+            <tr><td>Lorem ipsum</td></tr>
+            <tr><td>Dolor sit amet, consect</td></tr>
+            <tr><td>Adipiscing elit</td></tr>
+            <tr><td>Proin commodo turpis</td></tr>
+            <tr><td>lacus pulvinarvel</td></tr>
+            <tr><td>Prnare nisi pretium.</td></tr>
+          </table>
+          <div class="bl-footer">
+            <a href="#" title="Basic" class="btn-buy h21">Buy now</a>
+          </div>
+        </div>
+        <div class="block x3">
+          <div class="bl-header h3">
+            <h3>Premium</h3>
+          </div>
+          <table>
+            <th>$20.01/ Month</th>
+            <tr><td>Lorem ipsum</td></tr>
+            <tr><td>Dolor sit amet, consect</td></tr>
+            <tr><td>Adipiscing elit</td></tr>
+            <tr><td>Proin commodo turpis</td></tr>
+            <tr><td>lacus pulvinarvel</td></tr>
+            <tr><td>Prnare nisi pretium.</td></tr>
+          </table>
+          <div class="bl-footer">
+            <a href="#" title="Basic" class="btn-buy h31">Buy now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="js/jquery.min.js"></script>
   <script src="js/swiper.min.js"></script>
   <script>
@@ -131,6 +188,26 @@
         $(".nav").slideToggle();
         $(this).toggleClass("active");
       });
+    });
+  </script>
+  <script>
+    $(".h11").mouseout(function(e){
+      $(".h1").css("background", "#485460");
+    });
+    $(".h11").mousemove(function(e){
+      $(".h1").css("background", "#49cbcd");
+    });
+    $(".h21").mouseout(function(e){
+      $(".h2").css("background", "#485460");
+    });
+    $(".h21").mousemove(function(e){
+      $(".h2").css("background", "#49cbcd");
+    });
+    $(".h31").mouseout(function(e){
+      $(".h3").css("background", "#485460");
+    });
+    $(".h31").mousemove(function(e){
+      $(".h3").css("background", "#49cbcd");
     });
   </script>
 </body>

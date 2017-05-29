@@ -180,6 +180,49 @@ nav{
   font-size: 11pt;
   line-height: 25px;
 }
+.price{
+  background: #f1f1f1;
+  width: 100%;
+  display: inline-block;
+}
+.x3{
+  width: 31%;
+  padding: 1%;
+}
+.bl-header{
+  line-height: 75px;
+  background: #485460;
+  color: #fff;
+}
+.price table{
+  width: 100%;
+  background: #fff;
+}
+.price th{
+  line-height: 70px;
+  background: #f8f9fb;
+}
+.price td{
+  line-height: 45px;
+  border-bottom: 1px solid #ecf0f1;
+}
+.bl-footer{
+  background: #f8f9fb;
+  padding: 20px 0;
+}
+.btn-buy{
+  background: #788492;
+  line-height: 60px;
+  padding: 4px 38px;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'OpenSans-Semibold';
+  font-size: 17pt;
+}
+.btn-buy:hover{
+  background: #49cbcd;
+}
 @media screen and (max-width: 500px){
   .nav{
     display: none;
@@ -242,6 +285,10 @@ nav{
   .x4{
     width: 48%;
     padding: 1%;
+  }
+  .x3{
+    width: 94%;
+    padding: 3%;
   }
 }
 @media screen and (min-width: 770px){
