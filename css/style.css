@@ -223,6 +223,84 @@ nav{
 .btn-buy:hover{
   background: #49cbcd;
 }
+footer{
+  background-color: #000;
+  display: inline-block;
+  width: 100%;
+}
+.footer{
+  background: url('../img/footer.png') no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  display:inline-block;
+  width: 100%;
+  padding: 10px 0;
+}
+footer h2{
+  color: #fff;
+}
+.x2{
+  width: 44%;
+  padding: 3%;
+  text-align: left;
+  color: #fff;
+  margin: 20px 0;
+}
+.soc {
+  margin: 25px 0;
+}
+.soc i{
+  line-height: 50px;
+  width: 50px;
+  font-size: 23pt;
+  margin-right: 15px;
+  border-radius: 25px;
+  text-align: center;
+}
+.fa-facebook{
+  background: #3b5997;
+}
+.fa-twitter{
+  background: #3ec2f3;
+}
+.fa-google-plus{
+  background: #e44c41;
+}
+.fa-facebook:hover,.fa-google-plus:hover,.fa-twitter:hover{
+  opacity: 0.6;
+}
+.inp input{
+  padding: 6%;
+  width: 92%;
+  border-radius: 5px;
+}
+.inp{
+  position: relative;
+  float: left;
+  width: 45%;
+  margin: 2%;
+}
+.message{
+  position: relative;
+  float: left;
+  width: 90%;
+  height: 200px;
+  padding: 3%;
+  margin: 2%;
+  border-radius: 5px;
+}
+.btn-send{
+  display: block;
+  line-height: 50px;
+  font-size: 22pt;
+  background: #49cbcd;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0 51px;
+  float: right;
+  margin: 2%;
+}
 @media screen and (max-width: 500px){
   .nav{
     display: none;
@@ -247,6 +325,11 @@ nav{
   }
   .sltext{
     margin:0 auto;
+  }
+  .sltext h1{
+    font-size: 50pt;
+    line-height: 1.1;
+    margin: 0;
   }
   .swiper-button-prev, .swiper-button-next{
     display: none;
@@ -286,7 +369,7 @@ nav{
     width: 48%;
     padding: 1%;
   }
-  .x3{
+  .x3, .x2{
     width: 94%;
     padding: 3%;
   }
