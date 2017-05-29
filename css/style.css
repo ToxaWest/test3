@@ -301,6 +301,11 @@ footer h2{
   float: right;
   margin: 2%;
 }
+.error-box{
+  float: left;
+  width: 100%;
+  font-size: 9pt;
+}
 @media screen and (max-width: 500px){
   .nav{
     display: none;
