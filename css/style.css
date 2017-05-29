@@ -134,6 +134,52 @@ nav{
 #slider i{
   line-height: 62px;
 }
+.row{
+  display: inline-block;
+  width: 100%;
+  margin: 20px auto;
+  padding: 70px 0;
+}
+.row-width{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.block{
+  display: block;
+  float: left;
+  text-align: center;
+}
+.x4{
+  width: 21%;
+  padding: 2%;
+}
+.avatar{
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 50px 0;
+}
+.avatar i{
+  display: none;
+  position: absolute;
+  color: #f46d6d;
+  font-size: 85px;
+  line-height: 0;
+  top: 50%;
+  left: 36%;
+  right: 36%;
+}
+.avatar:hover i{
+  display: block;
+}
+.avatar img{
+  border-radius:200px;
+}
+.avatar img:hover ~ .avatar i {color:green;}
+.x4 p{
+  font-size: 11pt;
+  line-height: 25px;
+}
 @media screen and (max-width: 500px){
   .nav{
     display: none;
@@ -162,6 +208,10 @@ nav{
   .swiper-button-prev, .swiper-button-next{
     display: none;
   }
+  .block{
+    width: 98%;
+    padding: 1%;
+  }
 
 }
 @media screen and (min-width: 501px) and (max-width: 769px){
@@ -188,6 +238,10 @@ nav{
   }
   .sltext{
     margin:0 auto;
+  }
+  .x4{
+    width: 48%;
+    padding: 1%;
   }
 }
 @media screen and (min-width: 770px){
