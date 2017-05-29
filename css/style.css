@@ -91,7 +91,49 @@ nav{
     list-style: none;
     float: left;
 }
-
+#slider{
+  background-color: #49cbcd;
+}
+.swiper-container{
+  background: url('../img/slider.png') no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  min-height: calc(70vh - 100px);
+}
+.sltext{
+  text-align: center;
+  margin-top: 10vh;
+  position: relative;
+  vertical-align: middle;;
+  margin-bottom: 5vh;
+  color: #fff;
+  min-height: calc(70vh - 100px);
+}
+.btn{
+  padding: 13px;
+  border-radius: 10px;
+  font-size: 26pt;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 5px solid white;
+}
+.btn:hover{
+  background: #fff;
+  color: #49cbcd;
+}
+.swiper-button-prev, .swiper-button-next{
+  background: #fff;
+  border-radius: 50px;
+  color: #44c0c2;
+  font-size: 25pt;
+  text-align: center;
+}
+#slider i{
+  line-height: 62px;
+}
 @media screen and (max-width: 500px){
   .nav{
     display: none;
@@ -113,6 +155,12 @@ nav{
   .menu a{
     padding: 15px 10%;
     width: 80%;
+  }
+  .sltext{
+    margin:0 auto;
+  }
+  .swiper-button-prev, .swiper-button-next{
+    display: none;
   }
 
 }
@@ -137,6 +185,9 @@ nav{
   .menu a{
     padding: 15px 10%;
     width: 80%;
+  }
+  .sltext{
+    margin:0 auto;
   }
 }
 @media screen and (min-width: 770px){
