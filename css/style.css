@@ -99,18 +99,19 @@ nav{
   background: url('../img/slider.png') no-repeat;
   background-position: top center;
   background-size: cover;
-  display: block;
+  display: flex;
   width: 100%;
-  min-height: calc(70vh - 100px);
+  min-height: 100vh;
 }
 .sltext{
   text-align: center;
-  margin-top: 10vh;
+  margin: auto;
   position: relative;
-  vertical-align: middle;;
-  margin-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   color: #fff;
-  min-height: calc(70vh - 100px);
+  height: 100vh;
 }
 .btn{
   padding: 13px;
