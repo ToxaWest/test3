@@ -17,7 +17,6 @@ body{
   font-family: 'OpenSans';
   min-width: 300px;
   color: #4e525d;
-  margin-top: 100px;
 }
 h1{
   font-size: 63pt;
@@ -42,12 +41,11 @@ span{
   font-size: 14pt;
 }
 nav{
-  height: 100px;
+  height: 80px;
   max-width: 1200px;
   margin: 0 auto;
 }
 .nav-fix{
-  margin-top: -100px;
   position: fixed;
   width: 100%;
   background: #fff;
@@ -75,11 +73,13 @@ nav{
   display: inline-block;
   color: #484c55;
   text-decoration: none;
-  padding: 36px 14px;
+  padding: 0 15px;
+  transition: 0.3s;
 }
 .menu a:hover{
   background: #f8f9fb;
-  padding-bottom: 33px;
+  box-sizing: border-box;
+  margin-bottom: -3px;
   border-bottom:3px solid #49cbcd;
   color: #49cbcd;
 }
@@ -90,6 +90,7 @@ nav{
 .nav li {
     list-style: none;
     float: left;
+    line-height: 80px;
 }
 #slider{
   background-color: #49cbcd;
