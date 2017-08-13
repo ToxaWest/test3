@@ -55,9 +55,10 @@ nav{
   float: left;
   font-family: 'Lobster-Regular';
   font-size: 43pt;
+  line-height: 80px;
 }
 .logo a{
-  padding: 14px;
+  padding: 0 14px;
   color:#44c0c2;
   text-decoration: none;
   vertical-align: middle;
@@ -79,7 +80,6 @@ nav{
 .menu a:hover{
   background: #f8f9fb;
   box-sizing: border-box;
-  margin-bottom: -3px;
   border-bottom:3px solid #49cbcd;
   color: #49cbcd;
 }
